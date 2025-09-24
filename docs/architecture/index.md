@@ -16,7 +16,7 @@ The separate modules, or layers, within Telcoin Network are introduced below.
 
 The consensus layer ensures agreement between validator nodes on the state of their common ledger. It handles transactions broadcast to the network by checking each transaction is valid and is ordered correctly. In this way, it is critical to the smooth and secure operation of the blockchain without the need of a centralized party.
 
-Two key technologies, [Narwhal and Bullshark](./#consensus-layer), contribute to Telcoin Network's consensus layer. Narwhal is primarily concerned with the mempool - the initial handling of transactions which are broadcast to the network, while Bullshark handles the finalizing and recording of transactions within the [Settlement Layer](./#settlement-layer).
+Two key technologies, [Narwhal and Bullshark](/#consensus-layer), contribute to Telcoin Network's consensus layer. Narwhal is primarily concerned with the mempool - the initial handling of transactions which are broadcast to the network, while Bullshark handles the finalizing and recording of transactions within the [Settlement Layer](/#settlement-layer).
 
 #### Execution Layer
 
